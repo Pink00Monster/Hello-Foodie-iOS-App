@@ -10,8 +10,10 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         NavigationStack {
-            Text("My Recipes")
-                .navigationTitle("My Recipes")
+            List(Recipe.all) { recipe in
+                Text(recipe.name)
+                    .navigationTitle("My Recipes")
+            }
         }
     }
 }

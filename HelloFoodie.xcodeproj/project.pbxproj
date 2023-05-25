@@ -18,7 +18,7 @@
 		83890A4C29FBA54B001FD43A /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83890A4B29FBA54B001FD43A /* SettingsView.swift */; };
 		83890A4E29FBCFD5001FD43A /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83890A4D29FBCFD5001FD43A /* TabBar.swift */; };
 		83CC3F112A1F9865003DD7AE /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC3F102A1F9865003DD7AE /* RecipeModel.swift */; };
-		83CC3F142A1F9CD3003DD7AE /* Herbed Vegan Risotto with Zoodles.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CC3F132A1F9CD3003DD7AE /* Herbed Vegan Risotto with Zoodles.png */; };
+		83CC3F182A1FE96A003DD7AE /* RecipeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83CC3F172A1FE96A003DD7AE /* RecipeCard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,7 +35,7 @@
 		83890A4D29FBCFD5001FD43A /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
 		83890A4F29FBDBCF001FD43A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		83CC3F102A1F9865003DD7AE /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
-		83CC3F132A1F9CD3003DD7AE /* Herbed Vegan Risotto with Zoodles.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Herbed Vegan Risotto with Zoodles.png"; sourceTree = "<group>"; };
+		83CC3F172A1FE96A003DD7AE /* RecipeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeCard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +137,7 @@
 		83890A3829FBA27A001FD43A /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				83CC3F172A1FE96A003DD7AE /* RecipeCard.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -144,7 +145,6 @@
 		83CC3F122A1F9C9B003DD7AE /* RecipeImages */ = {
 			isa = PBXGroup;
 			children = (
-				83CC3F132A1F9CD3003DD7AE /* Herbed Vegan Risotto with Zoodles.png */,
 			);
 			path = RecipeImages;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83CC3F142A1F9CD3003DD7AE /* Herbed Vegan Risotto with Zoodles.png in Resources */,
 				83890A2D29FBA189001FD43A /* Preview Assets.xcassets in Resources */,
 				83890A2A29FBA189001FD43A /* Assets.xcassets in Resources */,
 			);
@@ -221,6 +220,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83890A4C29FBA54B001FD43A /* SettingsView.swift in Sources */,
+				83CC3F182A1FE96A003DD7AE /* RecipeCard.swift in Sources */,
 				83890A4629FBA507001FD43A /* CategoriesView.swift in Sources */,
 				83890A4829FBA51F001FD43A /* NewRecipeView.swift in Sources */,
 				83890A4E29FBCFD5001FD43A /* TabBar.swift in Sources */,
